@@ -1,0 +1,27 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore environment variables
+.env
+
+# Ignore SQLite database files
+*.db
+
+# Ignore Excel and temporary files
+*.xlsx
+~$*.xlsx
+
+# Ignore cache and system files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+.cache/
+
+# Ignore local VSCode settings
+.vscode/
+
+
+test.py
+remaining.py 
